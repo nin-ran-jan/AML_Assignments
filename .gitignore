@@ -1,0 +1,4 @@
+**/Datasets/
+**/data_dump*/
+**/*.csv
+**/*.log

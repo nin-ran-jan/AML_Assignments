@@ -1,0 +1,19 @@
+0. AE
+1. Implement NAL (it will work mp)
+2. Row number (positional embeddings)
+    a. TabPFN (Finetune)
+    b. Seq models - LSTM, Transformers (comparison)
+
+AE, Ensemble, NAL, SubTab
+
+1. AE
+    a. Encode input and then send to TabPFN / Transformers (encoding is cleaning the input)
+    b. LSTM (hidden size = 5, AE within an RNN block)
+
+2. Ensemble
+    a. 5 models, add another fusion head before ensembling. 
+    b. 5 models, no fusion layer. Direct majority voting.
+
+3. NAL
+    a. TabPFN (Finetune)
+    b. LSTMs
